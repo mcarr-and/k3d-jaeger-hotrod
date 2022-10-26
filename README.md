@@ -69,4 +69,4 @@ http://hotrod.local:8070/
  
 ## 3. Look at your Traefik UI to see your routing
 
-http://traefik.localhost:8070/dashboard/
+http://traefik.local:8070/dashboard/
