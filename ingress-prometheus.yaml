@@ -6,12 +6,12 @@ spec:
   entryPoints:
     - web
   routes:
-    - match: Host(`prometheus.localhost`)
+    - match: Host(`prometheus.local`)
       kind: Rule
       services:
         - name: prometheus-community-kube-prometheus
           port: 9090
-    - match: Host(`grafana.localhost`)
+    - match: Host(`grafana.local`)
       kind: Rule
       services:
         - name: prometheus-community-grafana

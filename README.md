@@ -45,7 +45,7 @@ https://k3d.io/v5.4.6/
 # See Jaeger Traces
 
 ## 1. Open Jaeger
-http://jaeger.localhost:8070/
+http://jaeger.local:8070/
 
 ## 2. Search for Jaeger Traces
 1. In the **Service** dropdown select *frondend* 
@@ -57,7 +57,7 @@ You will see some calls to **findDrivers** will have errors and you can trace do
 
 ## 1.  View generated System Architecture in Jaeger
 
-http://jaeger.localhost:8070/ 
+http://jaeger.local:8070/ 
 
 Click **System Architecture** to see what Jaeger sees as the architecture. 
 
@@ -65,7 +65,7 @@ You can click on **DAG** to see a graph
 
 ## 2. View Hotrod UI to use Hotrod for the rest of the Jaeger Hot Rod demo 
 
-http://hotrod.localhost:8070/
+http://hotrod.local:8070/
  
 ## 3. Look at your Traefik UI to see your routing
 
